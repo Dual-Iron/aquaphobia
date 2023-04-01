@@ -6,9 +6,9 @@ using System.Security.Permissions;
 [assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
 #pragma warning restore CS0618
 
-namespace TestMod;
+namespace Aquaphobia;
 
-[BepInPlugin("com.author.testmod", "Test Mod", "0.1.0")]
+[BepInPlugin("com.dual.aquaphobia", "Aquaphobia", "1.0.0")]
 sealed class Plugin : BaseUnityPlugin
 {
     bool init;
